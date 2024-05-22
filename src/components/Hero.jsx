@@ -1,4 +1,5 @@
-import bgImage from '../images/bg2.png';
+import bgImage from '../images/bg3.jpg';
+// import bgImage from '../images/bg2.jpg'
 
 function Hero() {
   const backgroundImageUrl = bgImage;
@@ -11,19 +12,20 @@ function Hero() {
   };
 
   return (
-    <div className='w-full' style={heroStyles}>
+    <div className='m-5 rounded-2xl overflow-hidden' style={heroStyles}>
       <div className='flex items-center justify-center w-full h-full bg-black/40'>
         <div className='text-center'>
-          <h1 className='text-3xl font-semibold text-white lg:text-6xl'>
-            Your Daily 
-            <span className='text-green-400'> Dose </span> 
+          <h1 className='text-4xl text-orange-300 lg:text-8xl font-bold font-montserrat'>
+            Your Daily Does of Sparkle
+            {/* <span className=' text-lime-600'> Dose </span> 
             of
-            <span className='text-orange-400'> Sparkle </span>
+            <span className='text-orange-600'> Sparkle </span> */}
           </h1>
         </div>
       </div>
     </div>
   );
 }
+
 
 export default Hero;
