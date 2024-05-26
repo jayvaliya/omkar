@@ -12,9 +12,7 @@ export default function Contact() {
   // Function to open Google Maps
   const handleLocationClick = () => {
     window.open(
-      'https://www.google.com/maps?q=PLOT NO 4, DIAMOND NAGAR, B/h. PATEL SAMAJ WADI, VARACHHA ROAD, SURAT-395006',
-      '_blank'
-    );
+"https://maps.app.goo.gl/8Ad9f4FaVbdUNzyb8"    );
   };
 
   return (
